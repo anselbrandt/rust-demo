@@ -46,3 +46,14 @@ cargo fmt -- --check
 cargo install cargo-audit
 cargo audit
 ```
+
+## Dependencies
+
+```
+cargo add actix-web@4.0.0
+```
+
+### Run
+```
+curl http://127.0.0.1:8000
+```
